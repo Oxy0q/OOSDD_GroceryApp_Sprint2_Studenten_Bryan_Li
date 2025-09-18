@@ -52,7 +52,6 @@ namespace Grocery.App.ViewModels
                 }
             }
         }
-
         partial void OnGroceryListChanged(GroceryList value)
         {
             Load(value.Id);
